@@ -17,6 +17,14 @@ Department of Electronics & Computers
 
 ---
 
+## 📚 Table of Contents
+- [Overview](#-overview)
+- [Computational Assignment – Satellite Radiation Reliability Analysis (OMERE)](#-)
+- [Bibliographical Assignment: ](#-)
+- [Repository Structure](#-repository-structure)
+
+---
+
 ## 📌 Computational Assignment – Satellite Radiation Reliability Analysis (OMERE)
 
 ### 🛰️ Mission Context: Hellas Sat-4  
