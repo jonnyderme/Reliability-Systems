@@ -93,6 +93,71 @@ The project analyzes the **Hellas Sat-4** geostationary satellite using **OMERE*
 
 ---
 
+## 📌 Bibliographical Assignment – Reliability of Train Traffic Control Systems
+
+### 🚆 Context: Safety-Critical Railway Infrastructure  
+This assignment presents a literature review on **the reliability and fault-tolerant design of train traffic control systems**, where failures may lead to **delays, economic losses, or catastrophic safety events**. These systems lie at the intersection of control engineering, embedded computing, and networked infrastructure.
+
+---
+
+## 🧠 Theoretical Background
+
+### 🛤️ Core Reliability Considerations
+
+- **Fail-safe vs. fault-tolerant design:** Ensures that failure does not propagate or compromise safety.
+- **Centralized vs. Distributed Control:** CTC systems must balance throughput, complexity, and failure isolation.
+- **Real-time constraints:** Delay-sensitive operations require hard deadlines for control decisions and signaling.
+- **Interoperability and standardization:** Especially vital in transnational railway systems (e.g., ERTMS/CTCS).
+
+---
+
+## 🔬 Literature Topics & Methodologies
+
+- **RFAD (Risk evaluation with Fuzzy Axiomatic Design):**  
+  Improves prioritization of failure modes under vagueness; combined with FMEA to address multi-criteria hazard analysis.
+
+- **Parallel Simulation & Testing for CTC systems:**  
+  Allows concurrent evaluation of multiple scenarios, increasing efficiency of validation pipelines in complex rail networks.
+
+- **Stochastic Colored Petri Nets (SCPNs):**  
+  Provide probabilistic behavior modeling of systems such as ATP (Automatic Train Protection) and interlocking subsystems, incorporating timing, concurrency, and failures.
+
+- **Finite-State Machines (FSMs) with Infrastructure Feedback:**  
+  Enable real-time dynamic reconfiguration — e.g., stop command on track occupancy, rerouting on signal failure.
+
+---
+
+## 📊 Key Insights & Results
+
+| Framework / Method                  | Contribution / Outcome                                                                 |
+|------------------------------------|----------------------------------------------------------------------------------------|
+| **RFAD + FMEA**                    | Better resolution than classic RPN in hazard prioritization under uncertain conditions |
+| **Parallel Testing of CTC**        | ~50% reduction in test time; coverage improvement using parallel path execution        |
+| **CPN-based Reliability Estimation** | Enabled prediction of component-specific MTTF/MTTR, identifying weak failure points     |
+| **FSM & Sensor Integration**       | Enabled dynamic train speed control and rerouting in response to infrastructure states |
+| **Condition Monitoring (TDM/RARC)** | Fusion of control and diagnostics to enable predictive maintenance strategies           |
+
+> ✅ **Combining formal modeling with runtime adaptivity** is the new frontier of railway control reliability.
+
+---
+
+## 🚀 Future Perspectives
+
+- Integration of **AI/ML for predictive failure diagnosis** in sensors, switches, and signal controllers.
+- Use of **digital twins** to simulate and pre-test reconfiguration scenarios in real time.
+- Adoption of **IEC 61508 and EN 50126/50129** standards in next-generation interoperable rail systems.
+- Enhanced **cybersecurity** for CBTC/ETCS to protect against network-originated failures and tampering.
+
+---
+
+## 📘 Conclusions
+
+- Reliable train control is no longer only about hardware redundancy — it’s increasingly about **smart control, formal verification, and human-aware design**.
+- Methods like **RFAD**, **CPNs**, and **real-time FSMs** are essential for modeling and mitigating risks in complex traffic environments.
+- By combining **static modeling (e.g., Petri nets)** with **dynamic sensing and actuation**, modern rail systems achieve not only safety but **resilience and maintainability**.
+
+---
+
 ## 📁 Repository Structure
 
 ```
