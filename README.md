@@ -87,3 +87,38 @@ The project analyzes the **Hellas Sat-4** geostationary satellite using **OMERE*
 
 ## 📁 Repository Structure
 
+```
+📁 Repository Structure
+
+├── README.md                          # Project overview and technical documentation for both assignments
+
+├── Computational Assignment/          # Reliability analysis using OMERE for the Hellas Sat-4 satellite
+│   ├── Courseworks/                   
+│   │   └── Omere_v4.0.pdf             # OMERE software documentation and mission setup details
+│   │   └── ra0365.txt                 # Radiation environment input data from OMERE
+
+│   ├── Reports/                       
+│   │   └── Report_HellasSat4.pdf      # Final project report: fault analysis, results, and interpretation
+│   │   └── Parameter_Table.txt        # Component-specific parameters used in simulation runs
+
+│   ├── Simulations and Results/       
+│   │   └── 4_Orbit/                   # TLE-based orbit modeling and GEO configuration
+│   │   └── 5_Environment_Simulation/  # Radiation environment and particle flux simulations
+│   │   └── 6_LET/                     # LET spectrum analysis and shielding effectiveness
+│   │   └── 7_SEE/                     # SEE prediction data: SEU, SEL, SEFI rates for various components
+
+├── Bibliographical Assignment/        # Research on the reliability of train traffic control systems
+│   ├── Literature Review/             
+│   │   └── trains_paper.pdf           # Final report on railway system reliability, safety, and redundancy
+
+│   ├── Sources/                       
+│   │   └── research_refs.bib          # Supporting research articles, standards, and whitepapers
+
+│   ├── Presentation/                 
+│   │   └── Trains_Presentation.pptx   # Slide deck summarizing key ideas and architecture insights
+
+│   └── Instructions/                 
+│       └── Instructions.pdf           # Official coursework instructions and submission guidelines
+```
+
+---
