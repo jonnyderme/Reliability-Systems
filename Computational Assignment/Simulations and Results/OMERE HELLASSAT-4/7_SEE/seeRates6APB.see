@@ -1,0 +1,125 @@
+#==================================================================
+# OMERE 5.6.1.30196 - SEE rate
+#
+# File: C:\Users\johnd\Documents\OMERE\HELLASSAT-4_SAUDIGEOSAT-1\SEE\seeRates6APB.see
+# Creation: 10/01/2025 01:44:27
+#==================================================================
+
+# Environment calculation time : 50.499 s.
+# SEE calculation time         : 1.01715 s.
+
+#/*********************** Environment data ************************/
+# FROM MISSION
+
+# Shielding thickness applied: 5.000 mm
+# Density: 2.699 g/cm²
+
+
+#===================== Trapped protons =====================
+# Model : AP8 min
+# Start year: 2019
+# Geomagnetic field model : JENSEN_CAIN (year = 1960.000)
+
+# Use the default model energy grid
+
+#===================== Solar mean protons =====================
+# Model : ESP
+# Confidence level : 95
+# Period during solar activity : 8.5 year(s)
+
+#=========== Cutoff ===========
+# Cutoff model : Störmer
+# Magnetospheric cutoff : Vertical
+# Weather condition : Quiet
+# Earth shadow : YES
+
+
+#===================== Solar flare protons =====================
+# SAPPHIRE-protons
+# Worst-case peak flux (80.0%, 8.5y).
+
+#=========== Cutoff ===========
+# Cutoff model : Störmer
+# Magnetospheric cutoff : Vertical
+# Weather condition : Quiet
+# Earth shadow : YES
+
+
+#===================== Solar flare ions =====================
+# CREME86
+# Index: M5-M1
+# Peak flux during a solar flare
+# Year: 2019
+# Atomic number of the lightest element: 1
+# Atomic number of the heaviest element: 92
+
+#=========== Cutoff ===========
+# Cutoff model : Störmer
+# Magnetospheric cutoff : Vertical
+# Weather condition : Quiet
+# Earth shadow : YES
+
+
+#===================== Cosmic rays =====================
+# Model : GCR-ISO
+# Solar activity : minimum
+# Atomic number of the lightest element : 1
+# Atomic number of the heaviest element : 92
+
+#=========== Cutoff ===========
+# Cutoff model : Störmer
+# Magnetospheric cutoff : Vertical
+# Weather condition : Quiet
+# Earth shadow : YES
+
+
+
+#/**********************************************************/
+#/*********************** SEE rates ************************/
+#/**********************************************************/
+
+---------------------------------------------------------------------------------------------------------
+|  Component Name                     |  Heavy Ions Rate (in-flare)    |  Heavy Ions Rate (out-of-flare)|  Protons Rate (in-flare)       |  Protons Rate (out-of-flare)   |  
+---------------------------------------------------------------------------------------------------------
+|  ATC18RHA                           |  5.82e-04 /device/day          |  4.38e-05 /device/day          |  6.55e-07 /device/day          |  6.55e-07 /device/day          |  
+
+
+#====================================================================
+# Component : ATC18RHA
+# Number of sensitive cells : 1
+# Cell depth : 2.000 Âµm
+
+# Heavy ions method:  WEIBULL
+# Heavy ions let threshold : 7.00e+00 MeV.cmÂ²/mg
+# Heavy ions limit cross section : 3.00e-04 cmÂ² /device 
+# Weibull W : 70.00
+# Weibull S : 2.70
+
+# Cross section type:  FROM DATA
+#      LET               Cross section
+#  (MeV.cmÂ².mg-1)        ( cmÂ² /device )
+#             12.00           1.00e-07
+#             21.00           4.50e-06
+#             35.00           1.70e-05
+#             65.00           5.50e-05
+#             65.00           1.00e-04
+#             65.00           2.00e-04
+
+# Protons method:  PROFIT
+# Angle PROFIT: 9.00e+01 Â°
+
+# Solar flare ions (Heavy Ions Rate)            5.38e-04  /device /day
+# Cosmic rays (Heavy Ions Rate)                 4.38e-05  /device /day
+# Trapped protons (Protons Rate)                0.00e+00  /device /day
+# Solar protons (Protons Rate)                  6.18e-07  /device /day
+# Cosmic rays (Protons Rate)                    3.75e-08  /device /day
+
+
+
+# Heavy ions rate (in-flare)                    5.82e-04  /device /day
+# Heavy ions rate (out-of-flare)                4.38e-05  /device /day
+# Protons rate (in-flare)                       6.55e-07  /device /day
+# Protons rate (out-of-flare)                   6.55e-07  /device /day
+# Total rate (in-flare)                         5.82e-04  /device /day
+# Total rate (out-of-flare)                     4.44e-05  /device /day
+

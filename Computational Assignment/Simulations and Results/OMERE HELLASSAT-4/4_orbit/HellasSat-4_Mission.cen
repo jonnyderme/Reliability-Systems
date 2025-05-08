@@ -1,0 +1,638 @@
+##########################################################################
+# OMERE mission file
+# Created by OMERE:2025/01/11    04:46:28
+##########################################################################
+# General
+#
+0001 OMERE version: 5.6.1.30196
+0003 Soft location: C:\ProgramData\TRAD\OMERE 5.6\datac\
+0004 Data directory: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\
+#
+##########################################################################
+# OMERE options
+#
+0050 SRIM      (0 = NO, 1 = YES): 0
+0051 EXCEL format output      (0 = NO, 1 = YES): 0
+0052 Number of threads      : 1
+0053 Show texture      (0 = NO, 1 = YES): 1
+0054 Auto mix similar graphs      (0 = NO, 1 = YES): 0
+0055 NIST Electron (0 = NO, 1 = YES): 0
+#
+##########################################################################
+# Mission description and orbitography
+#
+0102 Output orbit file name: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\HellasSat4_GeoSaudiSat_1_Orbit.dat
+0103 Nb orbit segments: 1
+0149 Mission starting year: 2019
+0150 Mission starting month: 5
+0151 Mission starting day: 2
+0152 Mission starting hour: 9
+0153 Mission starting minutes: 0
+0154 Mission starting seconds: 0
+0155 Mission duration (year(s)): 15.000000
+0156.0 Orbit type (0=Simple position, 1=Parameters, 2=File, 3=TLE): 1
+01562.0 Orbit name: Orbit HellasSat-4_SaudiGeoSat1
+0157.0 Simple position      (0 = NO, 1 = YES): 0
+0158.0 Osculator parameters: 1
+0162.0 Perigee: 35769.377276
+0163.0 Apogee: 35802.349524
+0164.0 Semi major axis: 42164.000000
+0165.0 Eccentricity: 0.000391
+0166.0 Inclination: 0.065800
+0167.0 Perigee argument: 0.000000
+0168.0 True anomaly: 0.000000
+0169.0 Longitude of right ascension node (w.r.t. Greenwich): 38.900000
+0170.0 Number of orbits: 300
+0171.0 Number of points per orbit: 300
+0174.0 With RAAN: 0
+0175.0 RAAN: 35.818449
+0172.0 Duration: 15.000000
+0173.0 Unit: 2
+#
+##########################################################################
+# Trapped particles
+#
+0200 Grid file: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\EnergyGridTrapped.txt
+0201 Electrons file: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\5_Space_Environment_Simulation\trappedElectronsSpecOrbit.flx
+0202 Protons file: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\5_Space_Environment_Simulation\trappedProtonsSpecOrbit.flx
+0203 BL file: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\5_Space_Environment_Simulation\BLSpec_Orbit.dat
+0203.1 Save BL File (0 = NO, 1 = YES): 1
+# Electrons: 	 0: (NONE) 1:(AE8_MIN), 2:(AE8_MAX), 3:(AE8_WEIGHTING), 4:(AE9_MEAN), 5:(AE9_PERTURBED), 6:(AE9_MONTE_CARLO), 7:(GEO_UPPER_CASE),
+#	8:(GEO_MEAN_CASE), 9:(GEO_LOWER_CASE), 10:(MEO_UPPER_CASE), 11:(MEO_MEAN_CASE), 12:(MEO_LOWER_CASE), 13:(OZONE), 14:(SLOT), 16:(GREEN_E).
+0204 Model electrons: 2
+
+# Protons: 	 0:(NONE), 129:(AP8_MIN), 130:(AP8_MAX), 131:(AP8_WEIGHTING), 132: (AP9_MEAN), 133:(AP9_PERTURBED), 134:(AP9_MONTE_CARLO), 135:(OPAL), 
+#	136:(GREEN_P).
+0205 Model protons: 129
+
+# Magnetic field: 	 0: (DIPOLAR), 1:(IGRF), 2:(GSFC), 3: (JENSEN_CAIN)
+0206.1 Magnetic field electrons: 3
+0206.2 Magnetic field protons: 3
+# Spectrum type: 	 0: (MEAN), 1:(INSTANTANEOUS), 2:(INSTANTANEOUS ALONG THE ORBIT), 3: (PEAK FLUX)
+0207 Spectrum type: 2
+0208 Default grid      (0 = NO, 1 = YES): 1
+0209 Energy: 1.000000
+0210 Slot confidence: 70
+0211 Worst case IGE      (0 = NO, 1 = YES): 0
+0212.1 Number of AE9AP9 runs: 40
+0212.2 Number of AE9AP9 runs: 40
+
+# Calculation type: 	 0: (PERCENTILE), 1:(MEAN), 2:(MEDIAN)
+0213.11 AE9AP9 Calculation type: 1
+0213.12 AE9AP9 Calculation type: 1
+0213.21 AE9AP9 Calculation percent: 50
+0213.22 AE9AP9 Calculation percent: 50
+0213.3 AE9 plasma      (0 = NO, 1 = YES): 0
+0213.4 AP9 plasma      (0 = NO, 1 = YES): 0
+0214.1 COMBI AE8 choice: 2
+0214.2 COMBI AE8 Magnetic Field: 3
+0215 COMBI SLOT confidence: 70
+0216.1 COMBI MEO: 0
+0216.2 COMBI GEO: 0
+0216.3 COMBI worst case date: 0
+0217.1 AE8 daly      (0 = NO, 1 = YES): 0
+0217.2 AP8 daly      (0 = NO, 1 = YES): 0
+0218.1 Periodique energy: 1.000000
+0218.2 Periodique protons: 1
+0218.3 Periodique differential: 0
+0219 Periodique sampling: 1
+#
+##########################################################################
+# Solar mean particles
+#
+0300 Energy grid file: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\EnergyGridSolar.dat
+0301 Ions file: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\solarMeanIons.flx
+0302 Protons file: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\solarMeanProtons.flx
+# Ions: 	 0: (PSYCHIC), 1:(HELIUM), 9:(ION_SAPPHIRE), 7:(NONE)
+0303 Ions model: 0
+# Protons: 	 2: (JPL91), 3:(JPL91 Ex), 4:(SOLPRO), 5:(SPOF Ex), 6:(ESP), 8:(SAPPHIRE), 7:(NONE)
+0304 Protons model: 6
+# Cutoff: 	 0: (NONE), 1:(STORMER), 2:(ONERA)
+0305 Cutoff: 1
+# Spectrum type: 	 0: (MEAN), 1:(INSTANTANEOUS), 2:(INSTANTANEOUS ALONG THE ORBIT)
+0306 Spectrum type: 0
+0307 Default grid      (0 = NO, 1 = YES): 1
+0308 Confidence rate: 95.000000
+0309 Active lifetime: 10.000000
+0310 Earth shadow      (0 = NO, 1 = YES): 1
+0311 EM condition      (0 = QUIET, 1 = STORMY): 0
+0312 Z min: 2
+0313 Z max: 92
+0314 Periodique energy: 1.000000
+0314.1 Periodique protons: 1
+0314.2 Periodique differential: 0
+0318 Active period duration (y): 10.000000
+#
+##########################################################################
+# Solar flare particles
+#
+0350 Ions file: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\5_Space_Environment_Simulation\solarFlareIonsIntFLux.flx
+0351 Protons file: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\5_Space_Environment_Simulation\solarFlareProtonsFlux.flx
+# Ions models: 	 0: (NONE), 1 : (CREME86), 2 : (IOFLAR), 3 : (CREME96, wc 5min), 4 : (CREME96, wc 1 day), 5 : (CREME96, wc 7 days),  6 : (SAPPHIRE-ions)
+0352 Ions models: 1
+# Proton models: 	  0: (NONE), 1: (SAPPHIRE-protons), 2: (Worst hour August 1972), 3: (Worst 5 min October 1989), 4: (Worst hour October 1989), 5: (Worst day October 1989), 6: (Worst week October 1989), # 7: (Worst 5 min July 2000), 8: (Worst hour July 2000), 9: (Worst day July 2000), 10: (Worst 5 min October 2003), 11: (Worst hour October 2003), # 12: (Worst hour October 2003), 13: (Worst day October 2003), 14: (Worst case 5 min), 15: (Worst case 1 hour), 16: (Worst case 6 hours), # 17 (Worst case 1 day), 18: (Worst case 7 days)   
+0353 Protons models: 1
+# Cutoff: 	 0: (NONE), 1:(STORMER), 2:(ONERA)
+0354 Cutoff: 1
+0355 Earth shadow      (0 = NO, 1 = YES): 1
+0356 EM condition      (0 = QUIET, 1 = STORMY): 0
+0357 Duration (s): 86400.000000
+0358 Number of eruptions: 2
+0359 Calculation type	(0 = WORST CASE, 1 = MEAN CASE): 0
+0360 Z min: 1
+0361 Z max: 92
+0362 CREME86 Index: 5
+0363 SAPPHIRE Active Period: 10.000000
+0364 SAPPHIRE Confidence Level: 95.000000
+0365 SAPPHIRE Model: 0
+0366 SAPPHIRE One of X years: 0
+#
+##########################################################################
+# Cosmic rays
+#
+0400 File: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\5_Space_Environment_Simulation\cosmicIonsDiffFlux.flx
+# Model: 	 0: (NONE), 1:(CREME86), 2:(CREME96), 3:(GCR_ISO)
+0401 Model: 3
+# Calculation type: 	 0: (MIN), 1:(MAX), 2:(MISSION)
+0402 Calculation type: 2
+# Cutoff: 	 0: (NONE), 1:(STORMER), 2:(ONERA)
+0403 Cutoff: 1
+0404 Earth shadow      (0 = NO, 1 = YES): 1
+0405 EM condition      (0 = QUIET, 1 = STORMY): 0
+0406 Z min: 1
+0407 Z max: 92
+0408 CREME86 index: 3
+#
+##########################################################################
+# External flux
+#
+0450 Imported flux for OMERE calculations (0 = NO, 1 = YES): 0
+0451 Protons flux (0 = NO, 1 = YES): 1
+0452 Electrons flux (0 = NO, 1 = YES): 0
+0453 Ions flux (0 = NO, 1 = YES): 0
+0454 Data provider (0 = NOAA): 0
+0455 Input file name: 5610
+#
+##########################################################################
+# External flux from CDF
+#
+0460 Imported flux for OMERE calculations (0 = NO, 1 = YES): 0
+0461 Protons flux (0 = NO, 1 = YES): 1
+0462 Electrons flux (0 = NO, 1 = YES): 0
+0463 Trapped protons (0 = NO, 1 = YES): 1
+0464 Solar protons (0 = NO, 1 = YES): 0
+0465 Number of time steps: 0
+0466 Input file name: 5610
+
+
+##########################################################################
+# Interplanetary
+##########################################################################
+0480|EnvInterplanetary|Version: 1
+0480|EnvInterplanetary|Interplanetary|Version: 1
+0480|EnvInterplanetary|Interplanetary|Interplanetary Module Data|Trajectory File: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\trajectory.dat
+0480|EnvInterplanetary|Interplanetary|Interplanetary Module Data|Protons File: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\protons.flx
+0480|EnvInterplanetary|Interplanetary|Interplanetary Module Data|Protons and Ions File: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\ions.flx
+0480|EnvInterplanetary|Interplanetary|Interplanetary Module Data|Standard Model: True
+0480|EnvInterplanetary|Interplanetary|Interplanetary Module Data|Exponent of attenuation law: 2
+0480|EnvInterplanetary|Interplanetary|Interplanetary Module Data|Only protons flux: True
+##########################################################################
+
+
+##########################################################################
+# Let Spectrum
+##########################################################################
+0500|EnvLetSpectrum|Version: 1
+0500|EnvLetSpectrum|LET Spectrum|Version: 1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|UseRFactor: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|RFactor: 0
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|RFactorThresholdEnergy: 0
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|OutputSettings|Calculation Type: Mean on the mission
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|OutputSettings|Output Path: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\LET.let
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|OutputSettings|Periodic Settings|Sampling: 1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|OutputSettings|Periodic Settings|Shielding|Thickness: 1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|OutputSettings|Periodic Settings|Shielding|Unit|Unit: g/cm²
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|OutputSettings|Periodic Settings|Shielding|Unit|Density: 2.6989
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|OutputSettings|Show Graph: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Shielding|Type: Single
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Shielding|Single Shielding Parameters|Thickness: 1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Shielding|Single Shielding Parameters|Unit|Unit: g/cm²
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Shielding|Single Shielding Parameters|Unit|Density: 2.6989
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Flux Origin: From Mission
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Trapped protons|Particle Type: Trapped protons
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Trapped protons|Selected: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Trapped protons|Z Min: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Trapped protons|Z Max: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Solar protons|Particle Type: Solar protons
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Solar protons|Selected: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Solar protons|Z Min: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Solar protons|Z Max: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Solar flare protons|Particle Type: Solar flare protons
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Solar flare protons|Selected: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Solar flare protons|Z Min: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Solar flare protons|Z Max: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Other protons|Particle Type: Other protons
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Other protons|Selected: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Other protons|Z Min: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Proton Config|Other protons|Z Max: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Cosmic rays|Particle Type: Cosmic rays
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Cosmic rays|Selected: True
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Cosmic rays|Z Min: 1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Cosmic rays|Z Max: 92
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Solar ions|Particle Type: Solar ions
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Solar ions|Selected: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Solar ions|Z Min: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Solar ions|Z Max: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Solar flare ions|Particle Type: Solar flare ions
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Solar flare ions|Selected: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Solar flare ions|Z Min: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Ion Config|Solar flare ions|Z Max: -1
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Let: 10
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|Flux Type: Integrated
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Use Protons: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Energy Unit: MeV
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Flux Unit: cm²/s/MeV
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Proton File: None
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Use Ions: False
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Let Unit: MeV.cm²/g
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Ion Flux Unit: cm²/s
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Ion File: None
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Flux File Type: Flux
+0500|EnvLetSpectrum|LET Spectrum|LET Spectrum Module Data|File Data|Path Type: File
+##########################################################################
+
+
+##########################################################################
+# Transport
+##########################################################################
+0600|EnvTransport|Version: 1
+0600|EnvTransport|Transport|Version: 1
+0600|EnvTransport|Transport|Transport Module Data|Particle Type: 1
+0600|EnvTransport|Transport|Transport Module Data|Output File Path: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\transportFlux.flx
+0600|EnvTransport|Transport|Transport Module Data|Shielding|Type: Single
+0600|EnvTransport|Transport|Transport Module Data|Shielding|Single Shielding Parameters|Thickness: 1
+0600|EnvTransport|Transport|Transport Module Data|Shielding|Single Shielding Parameters|Unit|Unit: g/cm²
+0600|EnvTransport|Transport|Transport Module Data|Shielding|Single Shielding Parameters|Unit|Density: 2.6989
+0604 Number of input files:  0
+##########################################################################
+#
+##########################################################################
+# Transfer function
+#
+0700 Flux origin (0 = from mission data, 1 = from flux file):  0
+0701 Particle type (0 = electron, 1 = proton):  1
+0702 Input flux data file name:   C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\flux.flx
+0703 Input transfer function data file name:   C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\fTransfert.dat
+0704 Periodic calculation (0 = NO, 1 = YES):  0
+0705 Number of step between two periodic calculations:  1
+#
+# Output
+#
+0706 Curve plotting of periodic calculation (0 = NO, 1 = YES):  0
+0707 Output file name:   C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\transferValues.dat
+#
+##########################################################################
+# Dose curve
+#
+0800 Flux origin (0 = from mission data, 1 = from flux file):  0
+0801 Calculation parameters:  SPECIFIC
+0802 Geometry: Solid Sphere
+#
+# If 0800 = " from flux files... "
+#
+0810 Trapped electrons (0 = NO, 1 = YES): 0
+0811 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\trpEle.flx
+0812 Flux format (0 = STANDARD, 1 = LINE): 0
+0813 Energy unit: 2
+0814 Flux unit  : 9
+#
+0815 Trapped protons (0 = NO, 1 = YES): 0
+0816 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\trpProt.flx
+0817 Flux format (0 = STANDARD, 1 = LINE): 0
+0818 Energy unit: 2
+0819 Flux unit  : 9
+#
+0820 Solar protons (0 = NO, 1 = YES): 0
+0821 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\solarProt.fle
+0822 Flux format (0 = STANDARD, 1 = LINE): 0
+0823 Energy unit: 2
+0824 Flux unit  : 9
+#
+0825 Other electrons (0 = NO, 1 = YES): 0
+0826 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\otherE.flx
+0827 Flux format (0 = STANDARD, 1 = LINE): 0
+0828 Energy unit: 2
+0829 Flux unit  : 9
+#
+0830 Other protons (0 = NO, 1 = YES): 0
+0831 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\otherP.flx
+0832 Flux format (0 = STANDARD, 1 = LINE): 0
+0833 Energy unit: 2
+0834 Flux unit  : 9
+#
+0835 Mission duration (y): 18.000000
+0836 Number of event: 2
+#
+# If 0801 = SPECIALS
+#
+0840|Shielding|Type: Custom Table
+0840|Shielding|Custom Table Shielding Parameters|Unit|Unit: mm
+0840|Shielding|Custom Table Shielding Parameters|Unit|Density: 2.6989
+0840|Shielding|Custom Table Shielding Parameters|Thickness Table: 0.01 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2 2.25 2.5 2.75 3 3.25 3.5 3.75 4 4.25 4.5 4.75 5 5.25 5.5 5.75 6 6.25 6.5 6.75 7 7.25 7.5 7.75 8 8.25 8.5 8.75 9 9.5 10 10.5 11 11.5 12 12.5 13 13.5 14 14.5 15 16 17 18 19 20 30 40 50 100 
+#
+0843 Shell sphere calculation method (0 = Ratio, 1 = Radius): 0
+0844 Ratio (external/internal radii): 10.000000
+0845 Internal radius (mm): 100.000000
+#
+0846 Target material: SILICON
+0847 Shieldose2 calculation option: 0
+0848 Dose curve calculation software: SHIELDOSE2
+#
+0850 Output format (STANDARD or LINE): STANDARD
+0851 Output file for trapped electrons      (0 = NO, 1 = YES): 1
+0852 Output file for trapped protons        (0 = NO, 1 = YES): 1
+0853 Output file for solar   protons        (0 = NO, 1 = YES): 1
+0854 Output file for other   electrons      (0 = NO, 1 = YES): 1
+0855 Output file for other   protons        (0 = NO, 1 = YES): 1
+0856 Output file for photons (from trapped) (0 = NO, 1 = YES): 1
+0857 Output file for photons (from other)   (0 = NO, 1 = YES): 1
+0858 Output file name for trapped electrons     : C:\Users\johnd\Documents\OMERE\HELLASSAT-4\6_LET\doseTrpEle.dos
+0859 Output file name for trapped protons       : C:\Users\johnd\Documents\OMERE\HELLASSAT-4\6_LET\doseTrpProt.dos
+0860 Output file name for solar   protons       : C:\Users\johnd\Documents\OMERE\HELLASSAT-4\6_LET\doseSolP.dos
+0861 Output file name for other   electrons     : C:\Users\johnd\Documents\OMERE\HELLASSAT-4\6_LET\doseDivEle.dos
+0862 Output file name for other   protons       : C:\Users\johnd\Documents\OMERE\HELLASSAT-4\6_LET\doseDivProt.dos
+0863 Output file name for photons (from trapped): C:\Users\johnd\Documents\OMERE\HELLASSAT-4\6_LET\doseTrpPhot.dos
+0864 Output file name for photons (from other)  : C:\Users\johnd\Documents\OMERE\HELLASSAT-4\6_LET\doseDivPhot.dos
+0865 Extrapolating Flux (0 = NO, 1 = YES): 1
+#
+# Output
+#
+0880 Result plotting (0 = NO, 1 = YES): 1
+0881 Output type (0 = MEAN, 1 = PERIODIC): 0
+0883 Number of step between two periodic calculations: 1
+0884 Shielding thickness: 3.705000
+0885 Thickness unit (0 = mm, 1 = g/cm², 2 = mils, 3 = um): 0
+#
+0890 Output file name: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\6_LET\dose.dos
+#
+##########################################################################
+# Total Ionizing Dose using a sector file
+#
+1300 Sector file: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\sector.dat
+1301 Detector name: 001
+1302 Periodic calculation (0 = NO, 1 = YES): 0
+1303 Number of step between two periodic calculations: 1
+1310 Dose Curve: from data files...
+1320 Total ionizing dose output file: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\TotalDose.dos
+#
+##########################################################################
+# Single Event Rate
+#
+0900 Component data base location: C:\ProgramData\TRAD\OMERE 5.6\datac\ComponentSEUDataBase.dat
+0900.2 Number of selected components: 1
+0901.0 Current selected component: 2
+0902 Component name: Component
+0903 Number of sensitive cells: 1.000000
+0904 Periodic file (0 = NO, 1 = YES): 0
+#
+# SEE Environment Setup (0:NO, 1:YES, 2:ABSENT)
+0905 Config Protons SEE - Trapped Protons: 1
+0905 Config Protons SEE - Solar Mean Protons: 1
+0905 Config Protons SEE - Solar Flare Protons: 0
+0905 Config Protons SEE - Solar Flare Ions (Z=1): 0
+0905 Config Protons SEE - Cosmics rays (Z=1): 1
+0906 Config Ions SEE - Trapped Protons: 0
+0906 Config Ions SEE - Solar Mean Protons: 0
+0906 Config Ions SEE - Solar Flare Protons: 0
+0906 Config Ions SEE - Solar Mean Ions: 0
+0906 Config Ions SEE - Solar Flare Ions: 0
+0906 Config Ions SEE - Cosmics rays: 1
+# SEE proton Model:	0: (NONE), 1: (WEIBULL), 2: (PROFIT), 3: (BENDEL), 4: (SIMPA), 5: (METIS)
+0914 SEE proton model: 1
+# SEE Ion Model:	0: (NONE), 1: (WEIBULL)
+0915 SEE ion model: 1
+#
+0920 Sensitive volume thickness for SIMPA (micrometer): 2.000000
+#
+0930 Cross section curve for heavy ions (0 = NO, 1 = YES): 1
+0932 Cross section curve for protons    (0 = NO, 1 = YES): 1
+#
+0934 Cross section type for heavy ions (0 = FILE, 1 = DATA, 2 = FIT, 3 = STEP): 2
+#
+0937 Cross section type for protons (0 = FILE, 1 = DATA, 2 = FIT, 3 = STEP): 2
+0961 LET threshold value (MeV*cm2/mg): 1.000000
+0962 Limit cross section value (cm2): 1.000000e-01
+0963 W fit parameter value: 70.000000
+0964 S fit parameter value: 1.000000
+0965 Critiqual charge value (pC): 0.020622
+0966 Collection efficiency value: 1.000000
+#
+0971 W fit parameter value: 20.000000
+0972 S fit parameter value: 1.000000
+0975 Energy threshold value (MeV): 1.000000
+0976 Limit cross section value (cm2): 1.000000e-02
+0977 Collection efficiency value: 1.000000
+#
+0940 Environment defined by mission or flux files (0 = MISSION, 1 = FILES): 0
+0945|Shielding|Type: Single
+0945|Shielding|Single Shielding Parameters|Thickness: 5
+0945|Shielding|Single Shielding Parameters|Unit|Unit: mm
+0945|Shielding|Single Shielding Parameters|Unit|Density: 2.6989
+0946 Periodic Steps: 1
+0948 Component data base file (0 = NO, 1 = YES): 1
+#
+0950 Output file name: C:\Users\johnd\Documents\OMERE\HELLASSAT-4_SAUDIGEOSAT-1\SEE\seeRates6APB.see
+
+
+##########################################################################
+# Equivalent LET
+##########################################################################
+1200|SeeLetEffectif|Version: 1
+1200|SeeLetEffectif|Let Effectif|Version: 1
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Start of sensitive area (microns): 5
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|End of sensitive area: 30
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Atomic number of the incident element: 54
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Energy of the incident particle (MeV): 450
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Output file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\LETequivalent.dat
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Number of layers: 0
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Thickness of layers|0: 0
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Thickness of layers|1: 0
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Thickness of layers|2: 0
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Thickness of layers|3: 0
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Material of layers|0: 0
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Material of layers|1: 0
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Material of layers|2: 0
+1200|SeeLetEffectif|Let Effectif|Let Effectif Module Data|Material of layers|3: 0
+##########################################################################
+#
+##########################################################################
+# Atomic displacement
+#
+1000 Flux origin (0 = from mission data, 1 = from flux file): 0
+#
+# If 1000 = " from flux files... "
+#
+1000 Flux origin (0 = from mission data, 1 = from flux file): 0
+1002 Incidence (0 = normal, 1= omni): 0
+1003 Output type (0 = fluence, 1 = dose): 0
+1010 Trapped electrons (0 = NO, 1 = YES): 0
+1011 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\trpEle.flx
+1012 Flux format (0 = STANDARD, 1 = LINE): 0
+1013 Energy unit: 2
+1014 Flux unit  : 9
+#
+1015 Trapped protons (0 = NO, 1 = YES): 0
+1016 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\trpProt.flx
+1017 Flux format (0 = STANDARD, 1 = LINE): 0
+1018 Energy unit: 2
+1019 Flux unit  : 9
+#
+1020 Solar protons (0 = NO, 1 = YES): 0
+1021 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\solarProt.fle
+1022 Flux format (0 = STANDARD, 1 = LINE): 0
+1023 Energy unit: 2
+1024 Flux unit  : 9
+#
+1025 Other electrons (0 = NO, 1 = YES): 0
+1026 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\otherE.flx
+1027 Flux format (0 = STANDARD, 1 = LINE): 0
+1028 Energy unit: 2
+1029 Flux unit  : 9
+#
+1030 Other protons (0 = NO, 1 = YES): 0
+1031 Input file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\otherP.flx
+1032 Flux format (0 = STANDARD, 1 = LINE): 0
+1033 Energy unit: 2
+1034 Flux unit  : 9
+#
+1035 Mission duration (y): 18.000000
+1036 Number of event: 2
+#
+# Parameters
+#
+1040 Using of predefined thickness table (0 = NO, 1 = YES): 1
+1041 Thickness unit (0 = mm, 1 = g/cm², 2 = mils, 3 = um): 0
+1042 Thickness table location: 
+1042.1 Shielding thickness applied:0.010000 0.100000 0.200000 0.300000 0.400000 0.500000 0.600000 0.700000 0.800000 0.900000 1.000000 1.100000 1.200000 1.300000 1.400000 1.500000 1.600000 1.700000 1.800000 1.900000 2.000000 2.250000 2.500000 2.750000 3.000000 3.250000 3.500000 3.750000 4.000000 4.250000 4.500000 4.750000 5.000000 5.250000 5.500000 5.750000 6.000000 6.250000 6.500000 6.750000 7.000000 7.250000 7.500000 7.750000 8.000000 8.250000 8.500000 8.750000 9.000000 9.500000 10.000000 10.500000 11.000000 11.500000 12.000000 12.500000 13.000000 13.500000 14.000000 14.500000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 30.000000 40.000000 50.000000 100.000000 
+1042.2 Density:  2.698900
+#
+1043 Using of predefined material data (0 = NO, 1 = YES): 1
+1044 Rank in material list: 0
+1049 Use of an electron NIEL curve file (0 = NO, 1 = YES): 0
+1051 Use of a proton NIEL curve file (0 = NO, 1 = YES): 0
+1045 Electron NIEL curve file name: 
+1046 Proton   NIEL curve file name: 
+1047 Extrapolation of incident flux (0 = NO, 1 = YES): 0
+1048 Rank in list of output equivalent flux: 0
+1050 Energy of equivalent protons   (MeV): 10.000000
+#
+# Output
+#
+1060 Result plotting (0 = NO, 1 = YES): 0
+1062 Calculation type: Mean on the mission
+1063 Number of step between two periodic calculations: 1
+1064 Shielding thickness: 3.705000
+1065 Thickness unit (0 = mm, 1 = g/cm², 2 = mils, 3 = um): 0
+#
+1070 Output file name: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\equiFlux.fle
+1071 Output file name (displacement dose): C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\displacement.dose
+
+
+##########################################################################
+# Solar Cells Degradation
+##########################################################################
+1100|RadSolarCells|Version: 1
+1100|RadSolarCells|Radiation Calculation|Version: 1
+1100|RadSolarCells|Radiation Calculation|InputFlux|OriginFlux: From Mission
+1100|RadSolarCells|Radiation Calculation|InputFlux|FileDurationYear: 0
+1100|RadSolarCells|Radiation Calculation|InputFlux|ALENumber: 0
+1100|RadSolarCells|Radiation Calculation|InputFlux|UserDefined: False
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedElectronData|FileFormat: Standard
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedElectronData|FluxUnit: m²/s/MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedElectronData|EnergyUnit: MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedElectronData|HasParticle: False
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedElectronData|FileName: None
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedProtonData|FileFormat: Standard
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedProtonData|FluxUnit: m²/s/MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedProtonData|EnergyUnit: MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedProtonData|HasParticle: False
+1100|RadSolarCells|Radiation Calculation|InputFlux|TrappedProtonData|FileName: None
+1100|RadSolarCells|Radiation Calculation|InputFlux|SolarProtonData|FileFormat: Standard
+1100|RadSolarCells|Radiation Calculation|InputFlux|SolarProtonData|FluxUnit: m²/s/MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|SolarProtonData|EnergyUnit: MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|SolarProtonData|HasParticle: False
+1100|RadSolarCells|Radiation Calculation|InputFlux|SolarProtonData|FileName: None
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherElectronData|FileFormat: Standard
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherElectronData|FluxUnit: m²/s/MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherElectronData|EnergyUnit: MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherElectronData|HasParticle: False
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherElectronData|FileName: None
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherProtonData|FileFormat: Standard
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherProtonData|FluxUnit: m²/s/MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherProtonData|EnergyUnit: MeV
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherProtonData|HasParticle: False
+1100|RadSolarCells|Radiation Calculation|InputFlux|OtherProtonData|FileName: None
+1100|RadSolarCells|Solar Cells|Version: 1
+1100|RadSolarCells|Solar Cells|Model Index: 0
+1100|RadSolarCells|Solar Cells|R Factor|Enabled: False
+1100|RadSolarCells|Solar Cells|R Factor|R Factor: 10
+1100|RadSolarCells|Solar Cells|R Factor|Threshold Energy: 10
+1100|RadSolarCells|Solar Cells|Shielding|Thickness Unit: um
+1100|RadSolarCells|Solar Cells|Shielding|Shielding Type: Single
+1100|RadSolarCells|Solar Cells|Shielding|Density: 2.6989
+1100|RadSolarCells|Solar Cells|Shielding|Infinite Back: True
+1100|RadSolarCells|Solar Cells|Shielding|Single Back Thickness: 50
+1100|RadSolarCells|Solar Cells|Shielding|Single Front Thickness: 50
+1100|RadSolarCells|Solar Cells|Shielding|Variable Front: False
+1100|RadSolarCells|Solar Cells|Shielding|Variable Front From: 50
+1100|RadSolarCells|Solar Cells|Shielding|Variable Front To: 200
+1100|RadSolarCells|Solar Cells|Shielding|Variable Front Step: 16
+1100|RadSolarCells|Solar Cells|Shielding|Variable Front Log: False
+1100|RadSolarCells|Solar Cells|Output|Calculation Type: Mean on the mission
+1100|RadSolarCells|Solar Cells|Output|Output Path: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\solarcells.dat
+1100|RadSolarCells|Solar Cells|Output|Periodic Settings|Sampling: 1
+1100|RadSolarCells|Solar Cells|Output|Periodic Settings|Shielding|Thickness: 1
+1100|RadSolarCells|Solar Cells|Output|Periodic Settings|Shielding|Unit|Unit: g/cm²
+1100|RadSolarCells|Solar Cells|Output|Periodic Settings|Shielding|Unit|Density: 2.6989
+1100|RadSolarCells|Solar Cells|Output|Show Graph: False
+1100|RadSolarCells|Solar Cells|NRL Specific|Technology|Cell Technology: Custom
+1100|RadSolarCells|Solar Cells|NRL Specific|Technology|Ne: 1.647
+1100|RadSolarCells|Solar Cells|NRL Specific|Technology|Ce: 0.363
+1100|RadSolarCells|Solar Cells|NRL Specific|Technology|Cp: 0.2904
+1100|RadSolarCells|Solar Cells|NRL Specific|Technology|DxE: 6.9e+09
+1100|RadSolarCells|Solar Cells|NRL Specific|Technology|DxP: 1.1e+09
+1100|RadSolarCells|Solar Cells|NRL Specific|Technology|Name: GaAs/Ge 1J
+1100|RadSolarCells|Solar Cells|NRL Specific|Material: GaAs
+1100|RadSolarCells|Solar Cells|JPL Specific|Material: Silicon
+1100|RadSolarCells|Solar Cells|JPL Specific|RDC File: None
+1100|RadSolarCells|Solar Cells|JPL Specific|Damage Ratio (Isc)|Enabled: True
+1100|RadSolarCells|Solar Cells|JPL Specific|Damage Ratio (Isc)|Damage Ratio (Isc): 0
+1100|RadSolarCells|Solar Cells|JPL Specific|Damage Ratio (Voc)|Enabled: True
+1100|RadSolarCells|Solar Cells|JPL Specific|Damage Ratio (Voc)|Damage Ratio (Voc): 0
+1100|RadSolarCells|Solar Cells|JPL Specific|Damage Ratio (Pmax)|Enabled: True
+1100|RadSolarCells|Solar Cells|JPL Specific|Damage Ratio (Pmax)|Damage Ratio (Pmax): 0
+##########################################################################
+#
+##########################################################################
+# Atox
+#
+1400 Magnetic index: 45.000000
+1401 Daily F10.7 flux: 250.000000
+1402.1 Local solar time(hour): 14
+1402.2 Local solar time(minute): 0
+1403 Output file: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\atox.den
+#
+##########################################################################
+# Material Erosion
+#
+1450|OutputConfig|Calculation Type: Along the orbit
+1450|OutputConfig|Output Path: C:\Users\t.deirmentzoglou\Documents\OMERE 5.6\erosion.dat
+1450|OutputConfig|Periodic Settings|Sampling: 1
+1450|OutputConfig|Periodic Settings|Shielding|Thickness: 1
+1450|OutputConfig|Periodic Settings|Shielding|Unit|Unit: g/cm²
+1450|OutputConfig|Periodic Settings|Shielding|Unit|Density: 2.6989
+1450|OutputConfig|Show Graph: False
+1451 Environment (0 = Mission, 1 = File): 0
+1452 Incidence Angle: 0.000000
+1453 Use Material Database (0 = No, 1 = Yes): 0
+1454 Erosion Rate: 1.000000e-30
