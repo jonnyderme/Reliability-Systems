@@ -1,0 +1,52 @@
+#==================================================================
+# OMERE 5.6.1.30196 - Trapped electrons flux file
+#
+# File: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\5_Space_Environment_Simulation\trappedElectronsMeanSpectrum.flx
+# Creation: 11/01/2025 03:08:26
+#==================================================================
+
+# Model : AE8 max
+# Start year: 2019
+# Geomagnetic field model : JENSEN_CAIN (year = 1960.000)
+
+# Use the default model energy grid
+
+# == Orbit 1/1 ==
+# Orbit data :
+# Name :                                Orbit HellasSat-4_SaudiGeoSat1
+# Duration :                            15 year(s)
+# Semi-major axis :                     42164.000000km
+# Eccentricity :                        0.000391
+# Inclination :                         0.066°
+# Argument of Perigee :                 0.000°
+# Longitude of Ascending node :         38.900°
+# (with respect to Greenwich)
+# True Anomaly :                        0.000°
+# Period :                              86163.618s
+# Number of orbits :                    300
+# Number of points per orbit :          300
+
+# Energy spectrum :
+#    Energy  Differential flux  Integral flux
+#       MeV     cm-2.s-1.MeV-1       cm-2.s-1
+    0.0400        2.89432e+08    4.43402e+07
+    0.1000        2.04418e+08    2.99713e+07
+    0.2500        6.45077e+07    1.03113e+07
+    0.5000        1.23926e+07    2.67394e+06
+    0.7500        3.71314e+06    1.01608e+06
+    1.0000        1.34247e+06    4.30140e+05
+    1.5000        2.67511e+05    1.05878e+05
+    2.0000        8.53111e+04    3.43816e+04
+    2.5000        2.11070e+04    8.85506e+03
+    3.0000        6.02286e+03    3.17056e+03
+    3.5000        2.76592e+03    1.32494e+03
+    4.0000        1.00173e+03    3.93110e+02
+    4.5000        4.87916e+02    1.03637e+02
+    5.0000        1.64626e+01    3.54721e+00
+    5.5000        1.45775e+00    0.00000e+00
+    6.0000        0.00000e+00    0.00000e+00
+    6.5000        0.00000e+00    0.00000e+00
+    7.0000        0.00000e+00    0.00000e+00
+
+
+

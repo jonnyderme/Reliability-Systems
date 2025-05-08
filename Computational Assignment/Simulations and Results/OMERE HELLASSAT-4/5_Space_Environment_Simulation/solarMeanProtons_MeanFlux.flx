@@ -1,0 +1,69 @@
+#==================================================================
+# OMERE 5.6.1.30196 - Solar protons flux file
+#
+# File: C:\Users\johnd\Documents\OMERE\HELLASSAT-4\5_Space_Environment_Simulation\solarMeanProtons_MeanFlux.flx
+# Creation: 11/01/2025 03:22:20
+#==================================================================
+
+# Model : ESP
+# Confidence level : 95
+# Period during solar activity : 10 year(s)
+
+#=========== Cutoff ===========
+# Cutoff model : Störmer
+# Magnetospheric cutoff : Vertical
+# Weather condition : Quiet
+# Earth shadow : YES
+
+
+# Confidence level = 95
+# Mission start = 2019
+# Lifetime : 15 years
+
+# == Orbit 1/1 ==
+# Orbit data :
+# Name :                                Orbit HellasSat-4_SaudiGeoSat1
+# Duration :                            15 year(s)
+# Semi-major axis :                     42164.000000km
+# Eccentricity :                        0.000391
+# Inclination :                         0.066°
+# Argument of Perigee :                 0.000°
+# Longitude of Ascending node :         38.900°
+# (with respect to Greenwich)
+# True Anomaly :                        0.000°
+# Period :                              86163.618s
+# Number of orbits :                    300
+# Number of points per orbit :          300
+
+# Energy spectrum :
+#    Energy  Differential flux  Integral flux
+#       MeV     cm-2.s-1.MeV-1       cm-2.s-1
+    1.0000        1.31447e+03    3.00830e+03
+    3.0000        3.87170e+02    1.48974e+03
+    5.0000        1.56011e+02    9.95528e+02
+    7.0000        9.13375e+01    7.54703e+02
+   10.0000        5.23172e+01    5.55249e+02
+   15.0000        2.68084e+01    3.66439e+02
+   20.0000        1.60249e+01    2.62623e+02
+   25.0000        1.05280e+01    1.97379e+02
+   30.0000        7.34240e+00    1.53490e+02
+   35.0000        5.30971e+00    1.22034e+02
+   40.0000        3.97410e+00    9.92315e+01
+   45.0000        3.04699e+00    8.16117e+01
+   50.0000        2.38157e+00    6.83254e+01
+   55.0000        1.89664e+00    5.74951e+01
+   60.0000        1.52974e+00    4.91623e+01
+   70.0000        1.03200e+00    3.64155e+01
+   80.0000        7.22512e-01    2.78947e+01
+   90.0000        5.20732e-01    2.16062e+01
+  100.0000        3.82850e-01    1.72671e+01
+  125.0000        1.94212e-01    1.03693e+01
+  150.0000        1.08676e-01    6.69731e+00
+  175.0000        6.51961e-02    4.58498e+00
+  200.0000        4.17134e-02    3.27086e+00
+  225.0000        2.79460e-02    2.41835e+00
+  250.0000        1.97047e-02    1.82751e+00
+  275.0000        1.41617e-02    1.41063e+00
+  300.0000        1.01662e-02    1.10653e+00
+
+
