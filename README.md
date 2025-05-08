@@ -61,14 +61,14 @@ The project analyzes the **Hellas Sat-4** geostationary satellite using **OMERE*
 | Component             | Event Type | Shielding (mm Al) | Quiet Solar | Solar Flare |
 |----------------------|------------|-------------------|-------------|-------------|
 | **Freescale MRAM**   | SEU        | 2.5 mm            | 4.56E-03    | 4.42E-03    |
-|                      | SEL        | 2.5 mm            | 0           | 0           |
-|                      | DSEE       | 2.5 mm            | 3.00E-04    | 3.58E-04    |
+| **Freescale MRAM**   | SEL        | 2.5 mm            | 0           | 0           |
+| **Freescale MRAM**   | DSEE       | 2.5 mm            | 3.00E-04    | 3.58E-04    |
 
 | Component             | Event Type | Shielding (mm Al) | Quiet Solar | Solar Flare |
 |----------------------|------------|-------------------|-------------|-------------|
 | **Atmel ATC18RHA**   | SEU (IU)   | 2.5 mm            | 5.82E+02    | 7.94E+02    |
-|                      | SEU (APB)  | 2.5 mm            | 6.15E-01    | 8.39E-01    |
-|                      | SEU (FPU)  | 2.5 mm            | 1.84E-01    | 2.51E-01    |
+| **Atmel ATC18RHA**   | SEU (APB)  | 2.5 mm            | 6.15E-01    | 8.39E-01    |
+| **Atmel ATC18RHA**   | SEU (FPU)  | 2.5 mm            | 1.84E-01    | 2.51E-01    |
 
 > ✅ MSP430: Strong candidate for GEO — negligible SEL/SEFI risk, low SEU rate  
 > ⚠️ ATC18RHA: Highly susceptible — fault mitigation (e.g. TMR, ECC) essential  
