@@ -57,11 +57,15 @@ The project analyzes the **Hellas Sat-4** geostationary satellite using **OMERE*
 | **MSP430FR5969-SP**  | DSEE       | 2.5 mm            | 2.00E-04    | 1.28E-03    |
 | **MSP430FR5969-SP**  | TID        | 2.5 mm            | 22.62 krad  | —           |
 | **MSP430FR5969-SP**  | DDD        | 2.5 mm            | 3.97E+08 n/cm² | —        |
--------------------------------------------------------------------------------------
+
+| Component             | Event Type | Shielding (mm Al) | Quiet Solar | Solar Flare |
+|----------------------|------------|-------------------|-------------|-------------|
 | **Freescale MRAM**   | SEU        | 2.5 mm            | 4.56E-03    | 4.42E-03    |
 |                      | SEL        | 2.5 mm            | 0           | 0           |
 |                      | DSEE       | 2.5 mm            | 3.00E-04    | 3.58E-04    |
-------------------------------------------------------------------------------------
+
+| Component             | Event Type | Shielding (mm Al) | Quiet Solar | Solar Flare |
+|----------------------|------------|-------------------|-------------|-------------|
 | **Atmel ATC18RHA**   | SEU (IU)   | 2.5 mm            | 5.82E+02    | 7.94E+02    |
 |                      | SEU (APB)  | 2.5 mm            | 6.15E-01    | 8.39E-01    |
 |                      | SEU (FPU)  | 2.5 mm            | 1.84E-01    | 2.51E-01    |
